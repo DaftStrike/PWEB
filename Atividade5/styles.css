@@ -1,0 +1,49 @@
+.caixa::before {
+	font: 150% Arial, Helvetica, sans-serif;
+	color: white;
+	display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (min-width: 1921px) {	
+	div::before {
+        content: "Limão";
+		background-color: #08b34f;
+	}
+}
+
+@media screen and (max-width: 1920px) {	
+	div::before {
+        content: "Amarelo";
+		background-color: #d8b503;
+	}
+}
+
+@media screen and (max-width: 1366px) {	
+	div::before {
+        content: "Roxo";
+		background-color: #4d009f;
+	}
+}
+
+@media screen and (max-width: 1024px) {	
+	div::before {
+        content: "Rosa";
+		background-color: #d719ba;
+	}
+}
+
+@media screen and (max-width: 768px) {	
+	div::before {
+        content: "Laranja";
+		background-color: #cb640f;
+	}
+}
+
+@media screen and (max-width: 420px) {	
+	div::before {
+        content: "Cobalto";
+		background-color: #073d6a;
+	}
+}
